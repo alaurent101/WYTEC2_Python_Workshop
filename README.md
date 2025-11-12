@@ -39,12 +39,15 @@ Do the following BEFORE the beginning of the workshop (ideally the day before). 
 
    Unzip the file anywhere on your computer and rename the folder **WYTEC2_Python_Workshop**. This will be the base location for the workshop.
 
-## If option 2: During the workshop, the binder is available at:
+## If option 2:
 
+During the workshop, the binder is available here: [![Binder](images/badge_logo.svg)](https://mybinder.org/v2/gh/alaurent101/WYTEC2_Python_Workshop/HEAD?urlpath=%2Fdoc%2Ftree%2FWYTEC2_PythonTutorial.ipynb)
 
 Otherwise you can open the binder from https://mybinder.org/ with the following input:\
+
 GitHub repository name or URL: ```https://github.com/alaurent101/WYTEC2_Python_Workshop```
 File to open (in JupyterLab): ```WYTEC2_PythonTutorial.ipynb```
+
 Then click ```Launch```
 
 ## Workshop mechanics (how to work through this workshop)
