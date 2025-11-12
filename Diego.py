@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Define URL of LOBO buoy
-URL = 'http://glider.ceotr.ca/data/live/otn201_sci_water_temp_live.csv'
+URL = 'http://glider.ceotr.ca/data/live/otn200_sci_water_temp_live.csv'
 
 # Read data from LOBO buoy
 glider_data = pd.read_csv(URL,sep=',')
