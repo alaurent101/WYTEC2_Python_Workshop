@@ -41,6 +41,7 @@ Do the following BEFORE the beginning of the workshop (ideally the day before). 
 
 ## If option 2: During the workshop, the binder is available at:
 
+
 Otherwise you can open the binder from https://mybinder.org/ with the following input:\
 GitHub repository name or URL: ```https://github.com/alaurent101/WYTEC2_Python_Workshop```
 File to open (in JupyterLab): ```WYTEC2_PythonTutorial.ipynb```
