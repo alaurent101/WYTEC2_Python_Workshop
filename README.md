@@ -2,20 +2,20 @@
 
 There are 2 ways to carry on with the workshop:
 
-1. Using **Anaconda** (on your computer, install required)\
+1. Using **Anaconda** (on your computer, install required). This is the __preferred__ way.\
     We will use Spyder (desktop, most advanced) and JupyterLab (notebooks, most user friendly)
-2. Using a **Binder** (online)\
+2. Using a **Binder** (online). If you don't want to install python on your computer but still want to run the python examples.\
    You can run and modify code during the workshop, but changes are not saved. The **Binder** is that same as the **Workshop notebook** but you can run the code within.
 
-## If option 1: Install/Download BEFORE the workshop (you probably already did this)
+## If option 1: Install/Download BEFORE the workshop
 
 Do the following BEFORE the beginning of the workshop (ideally the day before). This takes about 40 minutes, at reasonably good internet speed.
 
-1. Install **Anaconda**, which is a free "bundle" of Python and many modules, libraries and other programs commonly used in scientific research. Please install **Anaconda** from here: https://www.anaconda.com/download
+1. Install **Anaconda**, which is a free "bundle" of Python and many modules, libraries and other programs commonly used in scientific research. Please install **Anaconda** from here: https://www.anaconda.com/download. Install is free, but you need to create an account for the download.
 
 2. Once **Anaconda** finishes installing, open the **Anaconda Navigator**. Sometimes this is automatically opened after the installation finishes. If not, search in the Windows Taskbar (in Mac, search in the Launchpad) for "Anaconda Navigator".
 3. Once Anaconda Navigator is open, take a look at the available applications, find the application named “**Spyder**” (option 1a) and “**JupyterLab**”. If it is already installed, there will be a “Launch” button… if it is NOT installed, there will be a “Install” button. Make sure **Spyder** and **JupyterLab** are installed (by clicking on the ”Install” button)… but you may NOT want to “launch” it just yet. Wait until you finish installing the packages shown below.
-4. Open the **Anaconda Prompt** (Windows) or **Terminal** (Mac). Easiest way is by searching in the Windows Taskbar the term "Anaconda Prompt" (Windows) or search in the Launchpad for "Terminal" (Mac). Then follow the next ste to install 3 modules (i.e. netcdf4, cartopy and cmocean):
+4. Open the **Anaconda Prompt** (Windows) or **Terminal** (Mac). Easiest way is by searching in the Windows Taskbar the term "Anaconda Prompt" (Windows) or search in the Launchpad for "Terminal" (Mac). Then follow the next steps to install 3 modules (i.e. netcdf4, cartopy and cmocean):
 
 * Install `netcdf4`, by copy-pasting in the **Anaconda Prompt (or Terminal)**: 
 <div class='terminalBlock'>conda install -c anaconda netcdf4</div>
@@ -35,15 +35,19 @@ Do the following BEFORE the beginning of the workshop (ideally the day before). 
    * Click [Enter]
    * If it asks you "are you sure?", type "y" and click [Enter] again.
 
-5. Get the workshop files from **GitHub**. Download the workshop repository from here: https://github.com/alaurent101/WYTEC2_Python_Workshop/archive/refs/heads/main.zip
+5. __Do this step only the day prior to the workshop, otherwise the link will not work__. Get the workshop files from **GitHub**. Download the workshop repository from here: https://github.com/alaurent101/WYTEC2_Python_Workshop/archive/refs/heads/main.zip
 
    Unzip the file anywhere on your computer and rename the folder **WYTEC2_Python_Workshop**. This will be the base location for the workshop.
 
-## If option 2:
+6. On the day of the workshop you just have to **open Anaconda** and know the path to the **workshop folder**.
+
+## If Option 2: You don't have to install anything before the workshop
+
+1. On the day of the workshop, load the binder in your web browser
 
 The **Binder** is available here: [![Binder](images/badge_logo.svg)](https://mybinder.org/v2/gh/alaurent101/WYTEC2_Python_Workshop/HEAD?urlpath=%2Fdoc%2Ftree%2FWYTEC2_PythonTutorial.ipynb)
 
-It should take less that a minute to build the **Binder** and you'll be ready to go. It will look similar to the **Workshop notebook**
+It should take a couple of minutes to load the tutorial and you'll be ready to go.
 
 ## Workshop mechanics (how to work through this workshop)
 
