@@ -1,22 +1,12 @@
 <style>
 
+/*
 body {
-  counter-reset: question_num;                     /* Set a counter named 'section', and it`s initial value is 0. */
+  counter-reset: question_num;      
 }
+*/
 
-/* Question Box
-.Q {
-    background-color:#ff9900;
-    color:black;
-    font-size:17px;
-    width:100%;
-    border:1px solid #666666;
-    padding:5px;
-}
-
-#FAB57F
-
- */
+/* Question Box */
 .Q {
     background-color:#ffc87c;
     color:black;
@@ -27,10 +17,12 @@ body {
 }
 
 .Q::before {
-    counter-increment: question_num;
+    counter-increment: question_num + 2;
     content: "QUESTION " counter(question_num) '\A';
     white-space: pre;
 }
+
+
 
 .qhelp {
     color:#666666;
@@ -386,6 +378,13 @@ body {
 
 
 /* Headers */
+
+h1 {
+    background-color:#fef9c2;
+    border:1px solid #007acc;
+    padding:16px;
+}
+
 h2 {
     background-color:#99d6ff;
     border:1px solid #007acc;
