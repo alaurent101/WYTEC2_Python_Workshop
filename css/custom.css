@@ -17,12 +17,17 @@ body {
 }
 
 .Q::before {
-    counter-increment: question_num + 2;
-    content: "QUESTION " counter(question_num) '\A';
+    content: "QUESTION ";
     white-space: pre;
 }
 
-
+/*
+.Q::before {
+    counter-increment: question_num + 1;
+    content: "QUESTION " counter(question_num) '\A';
+    white-space: pre;
+}
+*/
 
 .qhelp {
     color:#666666;
@@ -239,7 +244,6 @@ body {
     content: "Note:";
 }
 
-
 .nomenclature {
     font-family: "SF Mono","Segoe UI Mono","Roboto Mono","Ubuntu Mono",Menlo,Courier,monospace;
     background-color:#ffff80;
@@ -252,7 +256,6 @@ body {
     display: inline-block;
     margin-top:5px;
 }
-
 
 /* checkpoint */
 .checkpoint {
@@ -301,7 +304,6 @@ body {
     margin-top:5px;
 }
 
-
 /* terminal */
 .terminal {
     background-color:black;
@@ -333,8 +335,6 @@ body {
     margin:20px;
     margin-left:25px;
 }
-
-
 
 /* TASK BOX */
 .startTASK {
@@ -372,11 +372,6 @@ body {
     content: "End of Task";
 }
 
-
-
-
-
-
 /* Headers */
 
 h1 {
@@ -402,6 +397,5 @@ h4 {
     border:1px solid #c0c0c0;
     padding:3px;
 }
-
 
 </style>

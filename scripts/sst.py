@@ -26,7 +26,7 @@ query='sst[('+minday+'):'+str(isub)+':('+maxday+')][(0.0):'+str(isub)+':(0.0)][(
 url = base_url
 
 # Download data and store it in a NetCDF file
-filename='satellite_data.nc'
+filename='satellite_data2.nc'
 urllib.request.urlretrieve (url, filename)
 
 # open NetCDF data
